@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\USER -I..\CORE -I..\STM32F10x_FWLib\inc -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HADEWARE\LED -I..\HADEWARE\OLED -I..\HADEWARE\MPU6050 -I..\HADEWARE\MPU6050\eMPL -I..\HADEWARE\ENCODER -I..\HADEWARE\PWM -I..\HADEWARE\EXTI -I..\HADEWARE\CONTROL
+-I "C:\Users\Land Rover\Desktop\∆Ω∫‚–°≥µ\USER\RTE"
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="516" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\stm32f10x_cec.o --omf_browse ..\obj\stm32f10x_cec.crf --depend ..\obj\stm32f10x_cec.d "..\STM32F10x_FWLib\src\stm32f10x_cec.c"
